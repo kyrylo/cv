@@ -1,27 +1,25 @@
-% LaTeX file for resume
 % This file uses the resume document class (res.cls)
-
 \documentclass{res}
 \usepackage{textcomp}
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[russian,english]{babel}
-% \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-% \usepackage{newcent}   % uses new century schoolbook postscript font
-\setlength{\textheight}{9.5in} % increase text height to fit on 1-page
+\usepackage[english]{babel}
 
 \begin{document}
 
-\name{KYRYLO SILIN\\[12pt]}     % the \\[12pt] adds a blank
-% line after name
-
+\name{KYRYLO SILIN\\[12pt]} % the \\[12pt] adds a blank
 \address{Kharkiv, Ukraine\\silin@kyrylo.org\\+380 98 909-30-34}
 
 \begin{resume}
 
   \section{JOB OBJECTIVE}
-  Not searching for a job at the moment. Thanks for taking the interest in my resume.
+  Senior software engineer with a master’s in computer science and vast
+  experience in web development and remote work. Open-source contributor and
+  maintainer of popular projects (Pry, used by 35\% of Ruby developers; Airbrake
+  Ruby, over 20 million downloads). Seeking to leverage leadership to become
+  your company’s next senior software engineer and continue to grow and learn
+  from others.
 
   \section{EDUCATION}
   Kharkiv National University of Radioelectronics, Kharkiv, Ukraine \\
@@ -35,82 +33,80 @@
   \section{EXPERIENCE}
   \vspace{-0.1in}
 
-  \begin{tabbing}%
-    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-    {\bf Software Engineer}  \>Airbrake \> July-...  2015\\
-    \>Remote
+  \begin{tabbing}
+    \hspace{2.3in}\= \hspace{2.6in}\= \kill
+    {\bf Software Engineer}  \>Airbrake (owned by LogicMonitor) \>
+    \hspace{-0.2in} Apr 2021 - Jan 2023\\
+    \>Santa Barbara, CA, United States
   \end{tabbing}\vspace{-20pt}
-  Still working there\ldots
-
- \begin{tabbing}%
-    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-    {\bf Software Engineer (intern)}  \>Bugsnag \> July-September  2014\\
-    \>San Francisco, United States
-  \end{tabbing}\vspace{-20pt}
-  Helped maintaining and improving Bugsnag\textquotesingle s notifier
-  libraries. Provided customer support for Bugsnag\textquotesingle s customers
-  that were using the notifiers. Expanded the number of example applications for
-  various programming languages that demonstrate customers how to integrate the
-  product. Improved the quality of JavaScript errors monitoring. Built an
-  internal framework for integration testing of the Bugsnag notifiers.
-
-  \begin{tabbing}%
-    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-    {\bf Software Engineer}  \>AppDragon \> Summer-Autumn  2013\\
-    \>Kharkiv, Ukraine
-  \end{tabbing}\vspace{-20pt}
-  Worked on improving quality and fixing bugs of OnAir Player (the front-end
-  part written in JavaScript), a distributed music player. Was outstaffed to a
-  San Francisco based company called Iskra Dev and worked for them remotely,
-  where developed a demo application for iPad (front-end, JS) and scaffolded the
-  Salesforce infrastructure for it (back-end, Apex).
-
-  \begin{tabbing}%
-    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-    {\bf Software Engineer (Freelance)}  \>Various clients \> Summer 2010 - Autumn 2013\\
-    \>Remote
-  \end{tabbing}\vspace{-20pt}
-  Worked for various clients such as DJ TechTools, Primate Inc., Riviera,
-  Aerobel and Smart Gadget. Duties included Rails programming, web design,
-  administration and others.
+  Added support for notifier configs, which helped Airbrake customers alter
+  their notifiers' behavior at runtime. Launched new functionality like Teams
+  and the Audit Log. Assisted with the development of spike detection in
+  customer error and APM usage to apply automatic discounts. I have worked on
+  the billing system relaunch. In doing so, I changed how the old code
+  communicates with the Stripe API. I also used Swagger to define and implement
+  internal APIs and deploy microservices to the Kubernetes cluster.
 
   \begin{tabbing}
-    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-    {\bf Web Developer} \>Kredmash Dealer \> Summer 2010\\
-    \>Kharkiv, Ukraine
+    \hspace{2.3in}\= \hspace{2.6in}\= \kill
+    {\bf Software Engineer}  \>Airbrake \> \hspace{-0.3in} July 2015 - April 2021\\
+    \>San Francisco, CA, United States
   \end{tabbing}\vspace{-20pt}
-  Designed and programmed the website for a dealer of the Ukrainian factory
-  called Kredmash.
+  Redesigned and reimplemented the open-source Airbrake notifier library for the
+  Ruby programming language from scratch. Added performance monitoring
+  capabilities and improved existing APIs for other notifier libraries written
+  in other programming languages. Developed the dashboard using Angular and
+  TypeScript. I have been involved in developing the Application Performance
+  Monitoring feature from the start. Developed and maintained a mature Ruby on
+  Rails application. Developed the HTTP backend using the Go and Ruby
+  programming languages. Wrote documentation for existing notifier APIs, the
+  Airbrake HTTP API, application documentation, and more.
 
-  \begin{tabbing}%
-    \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-    {\bf Web Developer}  \>Chic et Nature \> Spring  2010\\
+
+  \begin{tabbing}
+    \hspace{2.3in}\= \hspace{2.6in}\= \kill
+    {\bf Software Engineer (internship)}  \>Bugsnag \> \hspace{-0.2in} July-September  2014\\
+    \>San Francisco, CA, United States
+  \end{tabbing}\vspace{-20pt}
+  Worked on the front-end part of the OnAir Player (a distributed music player)
+  written in JavaScript. Been fixing bugs related to the responsiveness of the
+  application for web users. Created a demo application for the iPad using
+  Sencha Touch (front-end, JavaScript) and Salesforce (the Apex programming
+  language) to help other developers understand how to integrate applications
+  with the Salesforce ecosystem.
+
+  \begin{tabbing}
+    \hspace{2.3in}\= \hspace{2.6in}\= \kill
+    {\bf Software Engineer}  \>Entenso Ltd \> \hspace{-0.2in} June-November 2013\\
     \>Kharkiv, Ukraine
   \end{tabbing}\vspace{-20pt}
-  Designed and programmed the website of the Ukrainian department of the French
-  comsetics company.
+  Worked on the front-end part of the OnAir Player (a distributed music player)
+  written in JavaScript. Been fixing bugs related to the responsiveness of the
+  application for web users. Created a demo application for the iPad using
+  Sencha Touch (front-end, JavaScript) and Salesforce (the Apex programming
+  language) to help other developers understand how to integrate applications
+  with the Salesforce ecosystem.
+
+  \begin{tabbing}
+    \hspace{2.3in}\= \hspace{2.6in}\= \kill
+    {\bf Web Developer} \> Freelance \> \hspace{-0.5in} April 2010 - August 2013 \\
+  \end{tabbing}\vspace{-20pt}
+  Worked with different clients on a freelance basis. Some of my clients:
+  Primate Inc (a platform that shortlists job candidates for interviews based on
+  what they can do), DJ TechTools (the world's leading web community dedicated
+  to digital DJing).
 
   \section{PUBLICATIONS}
-  \selectlanguage{russian}
-  ``Как я стажировался в стартапе в Сан-Франциско и уехал домой (How I interned
-  at a startup in San Francisco and flew home)'' \href{http://megamozg.ru/post/10320/}{http://megamozg.ru/post/10320/}, September 2014.
-  \selectlanguage{english}
+  ``How I interned at a startup in San Francisco and flew home'' (in Russian)
+  \href{https://habr.com/post/285666/}{https://habr.com/post/285666/},
+  September 2014.
 
-  ``Optimisation of business processes of an Internet Service Provider with help
-  of the ARIS methodology'', {\it Radioelectronics and youth in XXI century},
-  Kharkiv, Ukraine, April 2014.
-
-  ``So what is ‘binding.pry’ exactly?'' \href{http://kyrylo.org/posts/so-what-is-binding-pry-exactly}{http://kyrylo.org/posts/so-what-is-binding-pry-exactly}, May 2013
+  ``So what is ‘binding.pry’ exactly?''
+  \href{http://kyrylo.org/2013/05/30/so-what-is-binding-pry-exactly}
+  {http://kyrylo.org/2013/05/30/so-what-is-binding-pry-exactly},
+  May 2013
 
   \section{PERSONAL PROJECTS}
-  \href{http://kyrylo.org}{kyrylo.org}
-  \\
-  Personal website, written in Sinatra.
-
-  \href{https://github.com/kyrylo/pry-theme}{Pry Theme}
-  \\
-  A plugin for the Pry REPL for the Ruby programming language, which allows to
-  customise Pry colors via prytheme.rb files.
 
   \href{https://github.com/kyrylo/rmarshal}{rmarshal}
   \\
@@ -122,38 +118,43 @@
   A Ruby C extension for querying methods, procs and lambdas for their source
   code and comments. Extremely fast.
 
-  \href{https://github.com/kyrylo/system_navigation}{system\_navigation}
+  \href{https://github.com/kyrylo/netstring}{netstring}
   \\
-  A library for the Ruby programming language that provides navigation and
-  introspection capabilities for Ruby programs.
+  A Go library for packing and parsing netstrings, self-delimiting encoding of
+  strings.
 
   \href{https://github.com/kyrylo/system_browser_client}{system\_browser\_client}
   \\
   A desktop app for browsing Ruby code. Just click to get details about a module
-  or class and explore its namespace or see the source of a method.
+  or class and explore its namespace or see the source of a method. Uses System
+  Navigation, another library of mine that provides navigation and introspection
+  capabilities for Ruby programs.
 
   \section{OPEN SOURCE CONTRIBUTIONS}
 
+  \href{https://github.com/airbrake/airbrake-ruby/commits?author=kyrylo}{Airbrake
+    Ruby commits}
+  \\
+  I have redesigned the Airbrake library for Ruby from scratch and maintained
+  it for 7+ years.
+
   \href{https://github.com/pry/pry/commits?author=kyrylo}{Pry commits}
   \\
-  I am a core team member of the Pry REPL project for the Ruby programming
-  language and some of its auxiliary projects like Pry Doc, Interception and
-  others. I've also contributed to the website, the wiki, the IRC channel and in
-  any other possible way. I've been spreading the Pry stickers at Ruby
-  conferences and meetups.
+  I am a core team member of the Pry REPL project for the Ruby
+  programming language.
 
   \section{COMPUTER SKILLS}
 
-  Proficient programming skills in Ruby, JavaScript \& Go. Proficient knowledge
-  of GNU/Linux and Shell. Good knowledge of Node.js, Ruby on Rails, Angular and
-  other popular frameworks. Experience with various programming languages:
-  Erlang, C, Smalltalk, Python, Perl, PHP, Java, Apex, Haskell, SQL, ELisp,
-  Rust, C# and more. Experience with Kubernetes, AWS, Jenkins.
+  Proficient programming skills in Ruby, JavaScript \& Go. Familiarity with
+  different programming paradigms (OOP, functional, procedural, etc.) and
+  experience with various programming languages (mostly for hobbies). Experience
+  with Kubernetes and AWS.
 
   \section{HOBBIES}
 
-  Learning new programming languages, learning new natural languages, open
-  source projects, traveling, cycling, football, computer games.
+  Learning new programming languages, learning new natural languages, making
+  open source contributions, hiking in the mountains, cycling, history,
+  trying new foods.
 
 \end{resume}
 \end{document}
